@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product & Project Management</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Product & Project Management Dashboard</h1>
+    </header>
+
+    <main class="main-content">
+      <section class="projects">
+        <h2>Active Projects</h2>
+        <ul id="project-list"></ul>
+        <button class="add-btn" onclick="addProject()">Add Project</button>
+      </section>
+
+      <section class="tasks">
+        <h2>Tasks</h2>
+        <ul id="task-list"></ul>
+        <button class="add-btn" onclick="addTask()">Add Task</button>
+      </section>
+
+      <section class="progress">
+        <h2>Progress Tracker</h2>
+        <div class="progress-bar">
+          <div id="progress" class="progress-fill"></div>
+        </div>
+        <p id="progress-text">Progress: 0%</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="sct">
+        <section class="ft">
+          <p>Zulfi SS, S.Pd</p>
+        </section>
+        <section class="ft">
+          <p>Anadilla TA, S.M., M.M</p>
+        </section>
+      </div>
+      <section class="kontak">
+        <p>Kontak Kami</p>
+        <p>+62</p>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
